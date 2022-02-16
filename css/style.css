@@ -1,0 +1,148 @@
+/* &display=swap */
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+body {
+	font-family: 'Lato', sans-serif;
+}
+main {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+header, footer {
+	font-size: 48px;
+	opacity: 0.7;
+	text-align: center;
+	padding: 50px 0;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin: 0 0 26px 0;
+}
+
+.wtf-1, .wtf-2 {
+	display: inline-block;
+	padding: 0 0 0 23px;
+}
+
+.wtf {
+	line-height: 1.6;
+	color: #787A80;
+	margin: 0 0 40px 0;
+}
+
+.wtf-1 {
+	background: url('../img/icons/1.svg') 0 5px no-repeat;
+	margin: 0 25px 0 0;
+}
+
+.wtf-2 {
+	background: url('../img/icons/2.svg') 0 5px no-repeat;
+}
+
+.img {
+	margin: 0 0 60px 0;
+}
+
+.info {
+
+}
+
+.info_subtitle {
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: 700;
+	margin: 0 0 25px 0;
+}
+
+.info_text {
+	color: #424551;
+	margin: 0 0 50px 0;
+	line-height: 1.6;
+}
+
+.info_text p {
+	margin: 0 0 40px 0;
+}
+
+.info_quote {
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: 700;
+	padding: 0 0 0 60px;
+	margin: 0 0 50px 0;
+	background: url('../img/icons/3.svg') 0 3px no-repeat;
+}
+
+.info_list {
+	color: #424551;
+	line-height: 1.6;
+	margin: 0 0 25px 0;
+} 
+
+.info_list_title {
+	margin: 0 0 25px 0;
+}
+
+.info_list_list li {
+	padding: 0 0 0 31px;
+	margin: 0 0 4px 0;
+	background: url('../img/icons/4.svg')0 5px no-repeat;
+}
+
+.result {
+	color: #424551;
+	line-height: 1.6;
+	margin: 0 0 100px 0;
+}
+/* ======WHY======== */
+.why 
+
+.why_subtitle {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 1.5;
+	font-weight: 700;
+	margin: 0 0 8px 0;
+}
+
+.why_title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin: 0 0 40px 0;
+}
+
+.why_list {
+	line-height: 1.6;
+	color: #424551;
+	margin: 0 0 50px 0;
+}
+
+.why_list li {
+	background: url('../img/icons/4.svg') 0 5px no-repeat;
+	padding: 0 0 0 34px;
+	margin: 0 0 12px 0;
+}
+
+.why_btn {
+	max-width: 160px;
+	line-height: 3.1;
+	letter-spacing: 0.5px;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	color: #FFFFFF;
+}
